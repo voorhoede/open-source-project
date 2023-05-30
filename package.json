@@ -1,11 +1,25 @@
 {
   "name": "open-source-project",
   "version": "1.0.0",
-  "scripts": {},
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {},
   "devDependencies": {},
+  "files": [
+    "src"
+  ],
+  "exports": "./src/main.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voorhoede/open-source-project.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC"
 }
