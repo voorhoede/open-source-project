@@ -5,5 +5,6 @@ To setup and test, follow these steps:
 ```
 
 ## General Prerequisites
+Node.js, [latest LTS is recommended](https://nodejs.org/en/about/releases/).
 
 ### Tips
